@@ -8,7 +8,7 @@ class Circle extends Shape {
   //
   //Static Variables exist without a Constructor
   //static int ballWidthStart, ballHeightStart, ballDiameter;
-  //int ballCount = 5; //requires pure java class for true static varaibles
+  //int ballCount = 5; //requires pure java class for true static variables
   //needs to be coded first in Processing
   //
   //Constructor
