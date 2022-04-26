@@ -17,6 +17,7 @@ void setup()
 //
 void draw() {
   background(0);
+  //Question: why are the paddles coloured if no code exists in the paddles for colour
   cHex.draw();
   rHexLeft.draw();
   rHexRight.draw();
