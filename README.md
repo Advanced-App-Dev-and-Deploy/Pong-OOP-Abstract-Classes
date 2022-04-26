@@ -31,7 +31,7 @@ Introduction to Abstract Classes
 
 Purpose:
 - create a ball that moves and bounces off the ceiling and bottom
-- also gets stuck in a very small net (thus)
+- also gets stuck in a very small net (thus very large paddles to start this project)
 - extra large paddles (unique to this assignment only) bounce ball (note: when drawing ball, send paddle coordinates)
 
 Introduction to Array List of Abstract Class: compiling Pong by drawing each shape, one at a time and doing all the math
