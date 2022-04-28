@@ -20,7 +20,7 @@ abstract class Shape {
   //Any other procedures common to all extended classes
   //Must be declared here, like draw();
   abstract void paddleBounceLeft( float x, float y, float w, float h );
-  abstract void paddleBounceRight(float x, float y, float h);
+  abstract void paddleBounceRight( float x, float y, float h );
   abstract float xGetter();
   abstract float yGetter();
   abstract float wGetter();
