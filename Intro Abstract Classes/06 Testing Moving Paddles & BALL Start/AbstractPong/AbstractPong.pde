@@ -39,41 +39,37 @@ void keyPressed()
   if (key == CODED && key == 'W' || key == 'w') {
     Rectangle paddleLeft = new Rectangle(shapes.get(0).xGetter(), shapes.get(0).yGetter(), shapes.get(0).wGetter(), shapes.get(0).hGetter(), shapes.get(0).colourDayModeGetter(), shapes.get(0).resetNightModeGetter() );
     paddleLeft.movePaddleUp();
-    reWritePaddle(0, paddleLeft);
+    shapes.set(0, paddleLeft);
   }//End W Key
   if (key == CODED && key == 'S' || key == 's') {
     Rectangle paddleLeft = new Rectangle(shapes.get(0).xGetter(), shapes.get(0).yGetter(), shapes.get(0).wGetter(), shapes.get(0).hGetter(), shapes.get(0).colourDayModeGetter(), shapes.get(0).resetNightModeGetter() );
     paddleLeft.movePaddleDown();
-    reWritePaddle(0, paddleLeft);
+    shapes.set(0, paddleLeft);
   }//End S Key
   if (key == CODED && key == 'D' || key == 'd') {
     Rectangle paddleLeft = new Rectangle(shapes.get(0).xGetter(), shapes.get(0).yGetter(), shapes.get(0).wGetter(), shapes.get(0).hGetter(), shapes.get(0).colourDayModeGetter(), shapes.get(0).resetNightModeGetter() );
     paddleLeft.movePaddleStop();
-    reWritePaddle(0, paddleLeft);
+    shapes.set(0, paddleLeft);
   }//End D Key
   //
   //Right Paddle, Element 1
   if (key == CODED && keyCode == UP) {
     Rectangle paddleRight = new Rectangle(shapes.get(1).xGetter(), shapes.get(1).yGetter(), shapes.get(1).wGetter(), shapes.get(1).hGetter(), shapes.get(1).colourDayModeGetter(), shapes.get(1).resetNightModeGetter() );
     paddleRight.movePaddleUp();
-    reWritePaddle(1, paddleRight);
+    shapes.set(1, paddleRight);
   }//End UP Arrow
   if (key == CODED && keyCode == DOWN) {
     Rectangle paddleRight = new Rectangle(shapes.get(1).xGetter(), shapes.get(1).yGetter(), shapes.get(1).wGetter(), shapes.get(1).hGetter(), shapes.get(1).colourDayModeGetter(), shapes.get(1).resetNightModeGetter() );
     paddleRight.movePaddleDown();
-    reWritePaddle(1, paddleRight);
+    shapes.set(1, paddleRight);
   }//End DOWN Arrow
   if (key == CODED && keyCode == LEFT) {
     Rectangle paddleRight = new Rectangle(shapes.get(1).xGetter(), shapes.get(1).yGetter(), shapes.get(1).wGetter(), shapes.get(1).hGetter(), shapes.get(1).colourDayModeGetter(), shapes.get(1).resetNightModeGetter() );
     paddleRight.movePaddleStop();
-    reWritePaddle(1, paddleRight);
+    shapes.set(1, paddleRight);
   }//End LEFT Arrow
+  //
 }//End keyPressed
-//
-void reWritePaddle(int i, Rectangle paddle) {
-  shapes.remove(i);
-  shapes.add(i, paddle);
-}//End reWritePaddle
 //
 void mousePressed() {
   //Note: will work anytime, trigger should be after celebration is complete
