@@ -1,4 +1,11 @@
 
+Note: ideas to trigger the ball
+- add the score and initiate that many ball objects
+- move the paddles to start the ball object moving
+
+
+
+
 This example demosntrates most of these ArrayList methods
 
 
