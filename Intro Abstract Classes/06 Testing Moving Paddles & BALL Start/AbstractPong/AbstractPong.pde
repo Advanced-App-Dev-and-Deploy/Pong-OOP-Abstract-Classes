@@ -36,6 +36,7 @@ void draw() {
 void keyPressed()
 {
   //Left Paddle, Element 0
+  //Note: shapes.get(0).movePaddleUp()
   if (key == CODED && key == 'W' || key == 'w') {
     Rectangle paddleLeft = new Rectangle(shapes.get(0).xGetter(), shapes.get(0).yGetter(), shapes.get(0).wGetter(), shapes.get(0).hGetter(), shapes.get(0).colourDayModeGetter(), shapes.get(0).resetNightModeGetter() );
     paddleLeft.movePaddleUp();
