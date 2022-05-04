@@ -16,7 +16,7 @@ Shape instructions = new Shape (0, 0, 300, 300) { //These hardcoded variables ar
   void draw() {
     fill(#FFFFFF); //White, not night mode compatible due to BLUE
     rect(x, y, w, h); //background for instructions menu
-    //Text Code Here
+    //Text Code Here, reminder about contract of inks
     fill(#FFFFFF); //Reset White, from colours of ink
   }
   //Methods for Possible Text Drawing
@@ -45,7 +45,7 @@ Shape instructions = new Shape (0, 0, 300, 300) { //These hardcoded variables ar
     return resetNightMode;
   }
 }
-; //Necessary Code
+; //Necessary Code (recall ";" end lines of code)
 //
 void setup()
 {
@@ -95,14 +95,13 @@ void draw() {
     shapes.get(ballElement).paddleBounceLeft( shapes.get(paddleLeftElement).xGetter(), shapes.get(paddleLeftElement).yGetter(), shapes.get(paddleLeftElement).wGetter(), shapes.get(paddleLeftElement).hGetter() );
     shapes.get(ballElement).paddleBounceRight( shapes.get(paddleRightElement).xGetter(), shapes.get(paddleRightElement).yGetter(), shapes.get(paddleRightElement).hGetter() );
     //Drawing where tokens should be
-    /*for ( Shape s : shapes ) {
+    /* for ( Shape s : shapes ) {
      s.draw();
      }
      */
-    //Note: repeats basic FOR-Each like belowss
+    //Note: repeats basic FOR-Each like belows
     for ( int i=1; i<shapes.size(); i++ ) {
       shapes.get(i).draw();
-      println("here", i);
     }
   } //End instructionsOn==false
   //
