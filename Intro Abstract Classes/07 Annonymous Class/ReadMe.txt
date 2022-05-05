@@ -1,5 +1,6 @@
 
 Annonomous Class Question: Does this have to be a "Global Class" (although only one Object is made) or can this be a local object?
+- Can it function like the extended classes and be garbage collected in setup() before .add to arrayList
 
 ---
 
