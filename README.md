@@ -3,19 +3,46 @@ Lessons for Pong
 
 TBA & UNDERCONSTRUCTION
 
----
-
-# To Include
-
 Vocabulary
 - Abstract Class
 - Abstract Method
 - Dynamic Binding (or late binding): during runtime an overridden method is classed depending on which subclass is called
 - Inheritance: subclass is created from superclass by absorbing the states and behaviors (variables and methods)
 
----
+Introduction: Fully encapsulating code
+- Pseudocode and Program Structure
+  - Creating a Super and Sub Class
+  - Variables and Methods must be declared in advanced (inheritance)
+  - Creating Objects with an Abstract Class
+  - Note: must create "Bruh, turn your Phun!" instruction to CANVAS, confirm in console, and must break the app if started in portrait mode
+- ID Features and related code: start with `void draw()` and identify which methods are connect and what each does
+  - Transfer the code to the related SHAPE: Rect{}} or Circle{}
+  - Connect to `void draw()` within the class
+- ID all Easter Eggs and related code: start with one of the CONSTRUCTORS & `void draw()`
+- MAIN Program: all objects from classes EXTENDING Shape{} are created locally and stored in the Shape ARRAYLIST
+- Anonymous Class: Create this single object, store it in Shape ARRAYLIST
+- MAIN Program
+  - `void draw()`: iterates through all necessary Shape ARRAYLIST
+  - `void keyPressed()` & related Key Board Listeners: adjusts Shape ARRAYLIST as needed
+  - `void mousePressed()` & related Mouse Listeners: :  adjusts Shape ARRAYLIST as needed
+- Shape ARRAYLIST: must declare DATA Structure you are using in project notes in MAIN before Global Variables 
 
-# To Include: Abstract Class Pong Progressions
+Questions
+- Is an Anonymous Class Local or Global if it only creates a single object?
+
+Expectations
+- See Introduction
+- All subprograms are either
+  - Shape Extensions: Circle{}, Rectangle{}
+  - Shape Anonymous Class
+  - Procedures of MAIN Program
+
+Blocks of code, Emphasized Functions
+- See above Exemplars and notes
+
+Gamification
+
+Progressions and Notes
 
 CAUTION: we are starting another Pong Program from a blank sketch
 - I know ... super exciting
@@ -23,13 +50,7 @@ CAUTION: we are starting another Pong Program from a blank sketch
 
 Pong works with only shapes and movements: excellent teaching tool for abstract classes
 
-Introduction to Abstract Classes
-- Creating a Super and Sub Class
-- Variables and Methods must be declared in advanced (inheritance)
-- Creating Objects with an Abstract Class
-- Note: must create "Bruh, turn your Phun!" instruction to CANVAS, confirm in console, and must break the app if started in portrait mode
-
-Purpose:
+First Step
 - create a ball that moves and bounces off the ceiling and bottom
 - also gets stuck in a very small net (thus very large paddles to start this project)
 - extra large paddles (unique to this assignment only) bounce ball (note: when drawing ball, send paddle coordinates)
@@ -45,6 +66,8 @@ Introduction to Array List of Abstract Class: compiling Pong by drawing each sha
 
 CAUTION: to start the Array List has 3 elements (ball, left paddle, right paddle)
 
+Example Data Structure
+
 A data structure will categorize additional elements
 - Note: Rectangle Class is able to draw text (scoreboard, instructions)
 - Rectangle: Left Paddle  
@@ -55,7 +78,9 @@ A data structure will categorize additional elements
 - Ellipse: any additional pong ball objects
 - Ellipse: any additional ellipse like objects
 
-### Future Ideas
+---
+
+# To Include
 
 
 ---
