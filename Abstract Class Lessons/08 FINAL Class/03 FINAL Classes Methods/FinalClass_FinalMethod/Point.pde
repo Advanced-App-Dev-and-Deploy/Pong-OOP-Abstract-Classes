@@ -1,5 +1,6 @@
 class Point extends Shape {
   //Global Variables
+  color colour=255; //Global Encapsulated for final methods
   //
   //Constructor
   Point (float x, float y) {
@@ -13,12 +14,11 @@ class Point extends Shape {
   }//End draw
   //
   final void fillCode() {
-    color colour=255;
     fill( fillColour(colour) );
   }//End fillCode
   //
   final void fillWhite() {
-    fill(255); //Gray-scale white reset
+    fill( fillColour(colour) );
   }//End fillWhite
   //Common Methods
   color fillColour(color colour) {
