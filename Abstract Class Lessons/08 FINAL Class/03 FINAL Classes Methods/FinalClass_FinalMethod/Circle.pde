@@ -11,12 +11,12 @@ class Circle extends Point {
   void draw() {
     fillCode();
     circle(x, y, diameter);
-    fillWhite(); //here only fills white becuase IF is here
+    fillWhite();
   }//End draw
   //
   color fillColour(color colour) {
     if ( colour!=255 ) {
-      return 255;
+      return 255; //if colour-variable is changed from 255 to something else
     } else {
       return color( random(255), random(255), random(255) );
     }
