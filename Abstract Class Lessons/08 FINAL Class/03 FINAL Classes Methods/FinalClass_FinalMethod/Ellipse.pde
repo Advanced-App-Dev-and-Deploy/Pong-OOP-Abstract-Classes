@@ -1,4 +1,4 @@
-final class Ellipse extends Circle {
+class Ellipse extends Circle {
   //Global Variables
   float yDiameter;
   //

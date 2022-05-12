@@ -11,7 +11,7 @@ class Circle extends Point {
   void draw() {
     fillCode();
     circle(x, y, diameter);
-    fillWhite();
+    fillWhite(); //here only fills white becuase IF is here
   }//End draw
   //
   color fillColour(color colour) {

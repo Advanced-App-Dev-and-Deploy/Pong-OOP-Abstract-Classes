@@ -1,4 +1,4 @@
-final class Rectangle extends Square {
+class Rectangle extends Square {
   //Global Variables
   float sideHeight;
   //
