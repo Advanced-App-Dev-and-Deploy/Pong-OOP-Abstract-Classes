@@ -1,14 +1,14 @@
-class Circle extends Point {
+private class Circle extends Point {
   //Global Variables
-  float diameter;
+  public float diameter;
   //
   //Constructor
-  Circle(float x, float y, float diameter) {
+  private Circle(float x, float y, float diameter) {
     super(x, y);
     this.diameter = diameter;
   }//End Constructor
   //
-  void draw() {
+  public void draw() {
     circle(x, y, diameter);
   }//End draw
   //

@@ -1,12 +1,12 @@
-class Point extends Shape {
+private class Point extends Shape {
   //Global Variables
   //
   //Constructor
-  Point (float x, float y) {
+  private Point (float x, float y) {
     super(x, y);
   }//End Constructor
   //
-  void draw() {
+  public void draw() {
     point(x, y);
   }//End draw
   //

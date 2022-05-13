@@ -1,14 +1,14 @@
-class Rectangle extends Square {
+private class Rectangle extends Square {
   //Global Variables
-  float sideHeight;
+  private float sideHeight;
   //
   //Constructor
-  Rectangle(float x, float y, float side, float sideHeight) {
+  private Rectangle(float x, float y, float side, float sideHeight) {
     super(x, y, side);
     this.sideHeight = sideHeight;
   }//End Constructor
   //
-  void draw() {
+  public void draw() {
     rect(x, y, side, sideHeight);
   }//End draw
   //

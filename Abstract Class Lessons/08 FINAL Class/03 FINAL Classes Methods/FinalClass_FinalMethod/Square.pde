@@ -1,21 +1,21 @@
-class Square extends Point {
+private class Square extends Point {
   //Global Variables
-  float side;
+  public float side;
   //
   //Constructor
-  Square(float x, float y, float side) {
+  private Square(float x, float y, float side) {
     super(x, y);
     this.side = side;
   }//End Constructor
   //
-  void draw() {
+  public void draw() {
     fillCode();
     square(x, y, side);
     fillWhite();
   }//End draw
   //
   //Common Methods
-  color fillColour(color colour) {
+  public color fillColour(color colour) {
     return color(0, 0, 255); //Not night mode, hint hint ;)
   }
 }//End Square

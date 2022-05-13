@@ -1,14 +1,14 @@
-abstract class Shape {
+private abstract class Shape {
   //Global Variables
-  float x, y;
+  public float x, y;
   //
   //Constructor: point(), line(), ellipse(), circle(), square(), rect(), etc. (student directed)
-  Shape(float xParameter, float yParameter) {//Possible Bug
+  private Shape(float xParameter, float yParameter) {//Possible Bug
     this.x = xParameter;
     this.y = yParameter;
   }//End Constructor
   //
-  abstract void draw();//End draw
+  public abstract void draw();//End draw
   //
   //Common Methods
   //

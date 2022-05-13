@@ -1,12 +1,12 @@
-final class Hat extends Rectangle{
+final private class Hat extends Rectangle{
   //Global Variables
   //
   //Constructor
-  Hat(float x, float y, float side, float sideHeight) {
+  private Hat(float x, float y, float side, float sideHeight) {
     super(x, y, side, sideHeight);
   }//End Constructor
   //
-  void draw() {
+  public void draw() {
     fillCode();
     rect(x, y, side, sideHeight);
     fillWhite();
