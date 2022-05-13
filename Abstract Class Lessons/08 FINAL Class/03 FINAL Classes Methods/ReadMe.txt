@@ -4,6 +4,7 @@ CAUTION: it is very diffuclt to design classes with inheritance without a very c
 
 Inheriting common code from extended class that doesn't use it but can reference it
 - note the difference between stroke() and fill() (i.e. ink and paint)
+- Best Practice: write code once and then reference it; able to rewrite it as necessary
 
 Two new classes are created: Ball (from Ellipse) & Hat (from Rectangle)
 - note the final methods are referenced (colouring black and green), not the previous rewritten ones
