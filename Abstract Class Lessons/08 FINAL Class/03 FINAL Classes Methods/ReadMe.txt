@@ -11,7 +11,4 @@ Two new classes are created: Ball (from Ellipse) & Hat (from Rectangle)
 
 
 Note: Variables
-- 3 sequences of classes are added together (in two different screens
-
-Note: Methods are either rewritten or kept the same
-
+- 3 sequences of classes repeated twice

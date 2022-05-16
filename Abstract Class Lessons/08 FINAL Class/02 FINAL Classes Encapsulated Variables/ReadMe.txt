@@ -21,3 +21,4 @@ Question for Debate:
 - Mathematically, the definitions of circle and ellipse are based on two lines
 - is it possible to extend Shape to Point to Line to Ellipse to Circle
 - is it possible to extend Shape to Point to Line to Ellipse to Circle
+- Note: the answer is yes if you think about it abstractly differently
