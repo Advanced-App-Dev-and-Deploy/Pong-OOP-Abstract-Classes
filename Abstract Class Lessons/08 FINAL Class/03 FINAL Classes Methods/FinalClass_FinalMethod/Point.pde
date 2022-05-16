@@ -8,9 +8,9 @@ private class Point extends Shape {
   }//End Constructor
   //
   public void draw() {
-    stroke(255);
+    stroke(255); //Grey Scale
     point(x, y);
-    stroke(0);
+    stroke(0); //Grey Scale
   }//End draw
   //
   final public void fillCode() {

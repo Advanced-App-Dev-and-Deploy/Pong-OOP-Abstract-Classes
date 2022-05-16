@@ -8,3 +8,10 @@ Inheriting common code from extended class that doesn't use it but can reference
 
 Two new classes are created: Ball (from Ellipse) & Hat (from Rectangle)
 - note the final methods are referenced (colouring black and green), not the previous rewritten ones
+
+
+Note: Variables
+- 3 sequences of classes are added together (in two different screens
+
+Note: Methods are either rewritten or kept the same
+

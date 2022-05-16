@@ -15,3 +15,9 @@ Flow Chart of Classes Used
 - Point to Circle (1 encapuslated variable, must be public for Ellipse)
   - Circle to Ellipse (using 1 public variable, 1 private encapulated variable)
 - Point to Square to Rectangle (similar to circle and ellipse)
+
+
+Question for Debate:
+- Mathematically, the definitions of circle and ellipse are based on two lines
+- is it possible to extend Shape to Point to Line to Ellipse to Circle
+- is it possible to extend Shape to Point to Line to Ellipse to Circle
