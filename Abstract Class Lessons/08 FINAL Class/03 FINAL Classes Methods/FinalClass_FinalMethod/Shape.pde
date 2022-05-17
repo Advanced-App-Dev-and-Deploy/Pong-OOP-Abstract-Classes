@@ -1,4 +1,4 @@
-abstract public class Shape {
+abstract private class Shape {
   //Global Variables
   public float x, y;
   //
@@ -11,8 +11,6 @@ abstract public class Shape {
   abstract public void draw();//End draw
   //
   //Common Methods
-  abstract public color fillColour(color colour);
-  abstract public void fillCode();
-  abstract public void fillWhite();
+  
   //
 }//End Shape

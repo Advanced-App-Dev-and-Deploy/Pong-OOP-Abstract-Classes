@@ -2,8 +2,8 @@ final private class Ball extends Ellipse {
   //Global Variables
   //
   //Constructor
-  private Ball (float x, float y, float side, float sideHeight) {
-    super(x, y, side, sideHeight);
+  private Ball (float x, float y, float diameter, float yDiameter) {
+    super(x, y, diameter, yDiameter);
   }//End Constructor
   //
   public void draw() {
@@ -13,4 +13,5 @@ final private class Ball extends Ellipse {
   }//End draw
   //
   //Common Methods
-}//End Hat
+  //
+}//End Ball

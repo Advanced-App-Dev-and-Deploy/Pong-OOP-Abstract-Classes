@@ -1,4 +1,4 @@
-private class Line extends Point {
+final private class Line extends Point {
   //Global Variables
   private float ptX, ptY;
   //
@@ -14,5 +14,5 @@ private class Line extends Point {
   }//End draw
   //
   //Common Methods
-  public color fillColour(color colour) {return color(0,0,0);}
+  //
 }//End Line

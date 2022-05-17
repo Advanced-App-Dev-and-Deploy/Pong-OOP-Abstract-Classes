@@ -20,8 +20,8 @@ void setup() {
   Square s = new Square (x, y, side);
   float sideHeight = height*1/2;
   Rectangle r = new Rectangle (x, y, side, sideHeight);
-  Hat h = new Hat (x+width*1/2, y, side-width*1/6, sideHeight);
   Ball b = new Ball (x+width*1/2, y, diameter, diameter);
+  Hat h = new Hat (x+width*1/2, y, side-width*1/6, sideHeight);
   //
   //Note: objects must be ordered due to same x, y
   shapes.add(l);

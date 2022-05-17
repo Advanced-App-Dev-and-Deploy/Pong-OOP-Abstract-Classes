@@ -16,6 +16,6 @@ private class Square extends Point {
   //
   //Common Methods
   public color fillColour(color colour) {
-    return color(0, 0, 255); //Not night mode, hint hint ;)
+    return color(0, 0, colour); //Not night mode, hint hint ;)
   }
 }//End Square
