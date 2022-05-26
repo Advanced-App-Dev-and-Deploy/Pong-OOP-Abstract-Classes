@@ -20,6 +20,7 @@ private class Point extends Shape {
   final public void fillWhite() {
     fill( fillColour(colour) );
   }//End fillWhite
+  //
   //Common Methods
   public color fillColour(color colour) {
     return color(0, 0, 0);

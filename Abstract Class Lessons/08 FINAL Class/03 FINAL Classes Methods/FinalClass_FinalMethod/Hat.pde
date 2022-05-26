@@ -1,4 +1,4 @@
-final private class Hat extends Rectangle{
+final private class Hat extends Rectangle {
   //Global Variables
   //
   //Constructor
@@ -13,4 +13,5 @@ final private class Hat extends Rectangle{
   }//End draw
   //
   //Common Methods
+  //
 }//End Hat

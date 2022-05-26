@@ -16,6 +16,6 @@ private class Rectangle extends Square {
   //
   //Common Methods
   final public color fillColour(color colour) {
-    return color(0, 255, 0);
+    return color(0, colour, 0);
   }
 }//End Rectangle
